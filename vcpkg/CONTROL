@@ -1,4 +1,0 @@
-Source: ros-dashing-ament-cmake-libraries
-Version: 0.7.3
-Description: The functionality to deduplicate libraries in the ament buildsystem in CMake.
-Build-Depends:
