@@ -1,4 +1,0 @@
-Source: ros-dashing-ament-cmake-test
-Version: 0.7.3
-Description: The ability to add tests in the ament buildsystem in CMake.
-Build-Depends:
