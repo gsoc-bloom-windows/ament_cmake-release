@@ -1,4 +1,0 @@
-Source: ros-dashing-ament-cmake-export-include-directories
-Version: 0.7.3
-Description: The ability to export include directories to downstream packages in the ament buildsystem in CMake.
-Build-Depends:
