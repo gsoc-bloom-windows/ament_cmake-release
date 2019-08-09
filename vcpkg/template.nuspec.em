@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-ament-cmake-export-include-directories</id>
-    <version>0.7.3</version>
-    <title>ros-dashing-ament-cmake-export-include-directories</title>
-    <authors>Dirk Thomas</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The ability to export include directories to downstream packages in the ament buildsystem in CMake.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-ament-cmake-core"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
